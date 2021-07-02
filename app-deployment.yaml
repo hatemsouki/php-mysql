@@ -16,11 +16,11 @@ spec:
         app: app
     spec:
       containers:
-      - image: sihemkh/app-pfe:v1
+      - image: khouildisihem/app-pfe:v.60
         name: app
         env:
         - name: APP_DATABASE_HOST
-          value: "mysqli"
+          value: "mysql"
         - name: APP_DATABASE_PORT
           value: "3306"
         - name: MYSQL_DATABASE_NAME
